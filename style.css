@@ -1,0 +1,41 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background: url(https://raw.githubusercontent.com/supahfunk/supah-codepen/master/floor-is-lava.png?v=2) no-repeat center / cover;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+}
+
+h1 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    mix-blend-mode: overlay;
+    color: white;
+    line-height: 0;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+    user-select: none;}
+
+h1:hover {
+    color: blue;
+}
+
