@@ -15,8 +15,8 @@ h1 {
     left: 0;
     top: 45%;
     transform: translateY(-50%);
-    mix-blend-mode: overlay;
-    color: black;
+    /*mix-blend-mode: overlay; changes it to blend with background*/
+    color: #46494d;
     line-height: 0;
     font-size: 40px;
     letter-spacing: 4px;
