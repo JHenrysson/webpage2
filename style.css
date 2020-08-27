@@ -1,19 +1,11 @@
-*, *:before, *:after {
-    box-sizing: border-box;
+#canvas {
+    display: block;
 }
-
 body {
     padding: 0;
     margin: 0;
-    overflow: hidden;
     font-family: 'Roboto', sans-serif;
     background: url(https://raw.githubusercontent.com/supahfunk/supah-codepen/master/floor-is-lava.png?v=2) no-repeat center / cover;
-}
-
-canvas {
-    width: 100vw;
-    height: 100vh;
-    background: transparent;
 }
 
 h1 {
@@ -24,7 +16,7 @@ h1 {
     top: 50%;
     transform: translateY(-50%);
     mix-blend-mode: overlay;
-    color: white;
+    color: black;
     line-height: 0;
     font-size: 16px;
     letter-spacing: 4px;
@@ -33,17 +25,14 @@ h1 {
     transform: translateY(-50%);
     cursor: pointer;
     transition: color .2s ease-in-out;
-    user-select: none;}
+    user-select: none;
+}
 
 h1:hover {
-    color: blue;
+    color: white;
 }
+/* this is mouse stylings */
 
-.hero{
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-}
 .scroll-down{
     position:absolute;
     bottom: 5rem;
@@ -56,7 +45,7 @@ h1:hover {
 .mouse{
     width: 1.5rem;
     height: 2.5rem;
-    border:2px solid white;
+    border:2px solid gray;
     border-radius: 2rem;
     margin-bottom: .5rem;
     display: flex;
@@ -65,23 +54,26 @@ h1:hover {
 .mouse span{
     width:.5rem;
     height: .5rem;
-    background-color: white;
+    background-color: gray;
     display: block;
     border-radius: 50%;
     margin: auto;
-    animation: move-wheel 1s linear infinite;
+    animation: move-wheel 1.2s linear infinite;
 }
 .arrow span{
     display: block;
     width: 1rem;
     height:1rem;
     border: 2px solid transparent;
-    border-right-color: white;
-    border-bottom-color: white;
+    border-right-color: gray;
+    border-bottom-color: gray;
     transform: rotate(45deg);
-    animation: arrow-down .5s alternate infinite;
+    animation: arrow-down .8s alternate infinite;
 
 
+}
+.jumbotron{
+    margin-top: 60%;
 }
 @keyframes move-wheel {
     0%{
@@ -114,3 +106,39 @@ h1:hover {
      }
 
 }
+
+#section1 {
+   overflow: auto;
+    height: 200px;
+    width: auto;
+    text-align: center;
+}
+
+#section2 {
+    height: 600px;
+
+}
+html{
+    scroll-behavior: smooth;
+
+
+
+}
+.navbar{
+    float: right;
+    color: transparent;
+    text-decoration:none;
+
+}
+a{
+    color: #E9E6E6;
+}
+a:hover{
+    color: darkgray;
+    text-decoration: none;
+}
+h1{
+    font-size: 25px;
+
+}
+
