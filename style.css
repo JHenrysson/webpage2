@@ -16,7 +16,7 @@ h1 {
     top: 45%;
     transform: translateY(-50%);
     /*mix-blend-mode: overlay; changes it to blend with background*/
-    color: #46494d;
+    color: black;
     line-height: 0;
     font-size: 40px;
     letter-spacing: 4px;
@@ -73,9 +73,7 @@ h1:hover {
 
 
 }
-.jumbotron{
-    margin-top: 60%;
-}
+
 @keyframes move-wheel {
     0%{
         opacity: 0;
@@ -108,17 +106,8 @@ h1:hover {
 
 }
 
-#section1 {
-   overflow: auto;
-    height: 200px;
-    width: auto;
-    text-align: center;
-}
 
-#section2 {
-    height: 600px;
 
-}
 html{
     scroll-behavior: smooth;
 
@@ -145,4 +134,9 @@ a:hover{
 }
 .list-inline-item{
     color: black;
+}
+
+#banner{
+max-width: 100%;
+
 }
