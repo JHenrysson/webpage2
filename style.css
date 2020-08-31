@@ -105,13 +105,9 @@ h1:hover {
      }
 
 }
-
-
-
 html{
     scroll-behavior: smooth;
-
-
+    background-color: white;
 
 }
 .navbar{
@@ -138,5 +134,19 @@ a:hover{
 
 #banner{
 max-width: 100%;
+    background-size: cover;
+}
+#pCards{
+    margin-left: 10%;
+}
+#pCards2{
+    margin-left: 60%;
+}
 
+.footer {
+    width: 100%;
+    background-color: lightgrey;
+    color: white;
+    text-align: center;
+    height:10%;
 }
