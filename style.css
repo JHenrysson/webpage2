@@ -181,3 +181,21 @@ p{
 #text{
     padding-top: 15%;
 }
+.card {
+    max-width: 30%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin: 6px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
