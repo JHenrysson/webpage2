@@ -4,8 +4,6 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background: url(https://raw.githubusercontent.com/supahfunk/supah-codepen/master/floor-is-lava.png?v=2) no-repeat center / cover;
     transition: all 0.5s ease;
 }
 
@@ -152,7 +150,6 @@ img{
     height: 200px;
 
 
-}
 }
 /* text color in banner */
 .centered {
