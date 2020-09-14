@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background: url(https://raw.githubusercontent.com/supahfunk/supah-codepen/master/floor-is-lava.png?v=2) no-repeat center / cover;
+    transition: all 0.5s ease;
 }
 
 h1 {
@@ -152,97 +153,6 @@ img{
 
 
 }
-.view {
-    margin-left: 40%;
-    border: 10px solid #fff;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
-    background: #fff no-repeat center center
-}
-.view .mask, .view .content {
-
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0
-}
-.view img {
-    display: flex;
-    justify-content: flex-end;
-    position: relative
-}
-.view h2 {
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 20px 0 0 0
-}
-.view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
-    position: relative;
-    color: #fff;
-    padding: 10px 20px 20px;
-    text-align: center
-}
-.view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: #000;
-    color: #fff;
-    box-shadow: 0 0 1px #000
-}
-.view a.info:hover {
-    box-shadow: 0 0 5px #000
-}
-.view-first img {
-    transition: all 0.2s linear;
-}
-.view-first .mask {
-    opacity: 0;
-    background-color: rgba(128, 128, 128, 0.7);
-    transition: all 0.4s ease-in-out;
-}
-.view-first h2 {
-    transform: translateY(-100px);
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-}
-.view-first p {
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all 0.2s linear;
-}
-.view-first a.info{
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-}
-.view-first:hover img {
-    transform: scale(1.1);
-}
-.view-first:hover .mask {
-    opacity: 1;
-}
-.view-first:hover h2,
-.view-first:hover p,
-.view-first:hover a.info {
-    opacity: 1;
-    transform: translateY(0px);
-}
-.view-first:hover p {
-    transition-delay: 0.1s;
-}
-.view-first:hover a.info {
-    transition-delay: 0.2s;
 }
 /* text color in banner */
 .centered {
@@ -259,26 +169,18 @@ height: 50%;
 
 .fwh-slide {
     height: 100vh;
-    background-color: #E9EDF1;
+    background-color: #FFFFFF;
     box-sizing:border-box;
 }
 .fwh-slide--bg-blue{
     background-color: #F2F9F3;
 }
-h2{
-    animation: type 3s steps(22);
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 2px solid black;
-    width:22ch
+
+p{
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Alegreya Sans', sans-serif;
 }
-@keyframes type {
-    0% {
-        width:0ch;
-    }
-    100%{
-        width: 22ch;
-    }
-
-
+#text{
+    padding-top: 15%;
 }
