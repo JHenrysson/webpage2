@@ -134,10 +134,9 @@ a:hover{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: lightgrey;
+    background-color: white;
     color: white;
     text-align: center;
-    height:10%;
 
 }
 img{
@@ -183,7 +182,9 @@ p{
 #titleText{
     padding-top: 10%;
     font-family: 'Tangerine', serif;
-    border: solid;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 
@@ -199,7 +200,6 @@ p{
 #section1 {
     position: relative;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
