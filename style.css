@@ -199,3 +199,8 @@ p{
 .row{
     justify-content: center;
 }
+
+#section1 {
+    position: relative;
+    width: 100%
+}
